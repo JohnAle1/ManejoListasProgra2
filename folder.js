@@ -4,12 +4,6 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-let listaaleatoria = [];
-const listamenu = [
-  "2.- Jugar Adivina numero",
-  "1.- Generar Lista Aleatoria",
-  "0.- Salir del programa",
-];
 let menu = -1;
 
 rl.on("line", (input) => {
